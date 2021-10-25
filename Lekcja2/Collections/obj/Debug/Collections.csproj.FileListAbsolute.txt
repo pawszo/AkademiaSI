@@ -1,0 +1,14 @@
+D:\workspace\Akademia SI\Collections\Collections\Collections\bin\Debug\Collections.exe.config
+D:\workspace\Akademia SI\Collections\Collections\Collections\bin\Debug\Collections.exe
+D:\workspace\Akademia SI\Collections\Collections\Collections\bin\Debug\Collections.pdb
+D:\workspace\Akademia SI\Collections\Collections\Collections\obj\Debug\Collections.csproj.AssemblyReference.cache
+D:\workspace\Akademia SI\Collections\Collections\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+D:\workspace\Akademia SI\Collections\Collections\Collections\obj\Debug\Collections.exe
+D:\workspace\Akademia SI\Collections\Collections\Collections\obj\Debug\Collections.pdb
+D:\workspace\Akademia SI\Lekcja2\Collections\bin\Debug\Collections.exe.config
+D:\workspace\Akademia SI\Lekcja2\Collections\bin\Debug\Collections.exe
+D:\workspace\Akademia SI\Lekcja2\Collections\bin\Debug\Collections.pdb
+D:\workspace\Akademia SI\Lekcja2\Collections\obj\Debug\Collections.csproj.AssemblyReference.cache
+D:\workspace\Akademia SI\Lekcja2\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+D:\workspace\Akademia SI\Lekcja2\Collections\obj\Debug\Collections.exe
+D:\workspace\Akademia SI\Lekcja2\Collections\obj\Debug\Collections.pdb

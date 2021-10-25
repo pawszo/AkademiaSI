@@ -1,0 +1,7 @@
+D:\workspace\Akademia SI\Lekcja2\References\References\bin\Debug\References.exe.config
+D:\workspace\Akademia SI\Lekcja2\References\References\bin\Debug\References.exe
+D:\workspace\Akademia SI\Lekcja2\References\References\bin\Debug\References.pdb
+D:\workspace\Akademia SI\Lekcja2\References\References\obj\Debug\References.csproj.AssemblyReference.cache
+D:\workspace\Akademia SI\Lekcja2\References\References\obj\Debug\References.csproj.CoreCompileInputs.cache
+D:\workspace\Akademia SI\Lekcja2\References\References\obj\Debug\References.exe
+D:\workspace\Akademia SI\Lekcja2\References\References\obj\Debug\References.pdb

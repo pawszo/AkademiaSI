@@ -1,0 +1,14 @@
+D:\workspace\Akademia SI\Akademia\bin\Debug\Akademia.exe.config
+D:\workspace\Akademia SI\Akademia\bin\Debug\Akademia.exe
+D:\workspace\Akademia SI\Akademia\bin\Debug\Akademia.pdb
+D:\workspace\Akademia SI\Akademia\obj\Debug\Classes.csproj.AssemblyReference.cache
+D:\workspace\Akademia SI\Akademia\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+D:\workspace\Akademia SI\Akademia\obj\Debug\Akademia.exe
+D:\workspace\Akademia SI\Akademia\obj\Debug\Akademia.pdb
+D:\workspace\Akademia SI\Lekcja2\bin\Debug\Akademia.exe.config
+D:\workspace\Akademia SI\Lekcja2\bin\Debug\Akademia.exe
+D:\workspace\Akademia SI\Lekcja2\bin\Debug\Akademia.pdb
+D:\workspace\Akademia SI\Lekcja2\obj\Debug\Classes.csproj.AssemblyReference.cache
+D:\workspace\Akademia SI\Lekcja2\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+D:\workspace\Akademia SI\Lekcja2\obj\Debug\Akademia.exe
+D:\workspace\Akademia SI\Lekcja2\obj\Debug\Akademia.pdb
