@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfacesAndStrategy.Services
+namespace LoopsConditionalsAndIterations
 {
-    class DialogService 
+    class Program
     {
+        static void Main(string[] args)
+        {
+        }
+
+
     }
 }

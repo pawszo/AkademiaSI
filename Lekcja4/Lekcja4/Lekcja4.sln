@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesAndStrategy", "InterfacesAndStrategy\InterfacesAndStrategy.csproj", "{0E7A272F-9B79-4AFB-B4E8-2AD348FFA4A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsConditionalsAndIterations", "LoopsConditionalsAndIterations\LoopsConditionalsAndIterations.csproj", "{6646CA0A-4566-4A65-AACC-319C3869B786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0E7A272F-9B79-4AFB-B4E8-2AD348FFA4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E7A272F-9B79-4AFB-B4E8-2AD348FFA4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E7A272F-9B79-4AFB-B4E8-2AD348FFA4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6646CA0A-4566-4A65-AACC-319C3869B786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6646CA0A-4566-4A65-AACC-319C3869B786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6646CA0A-4566-4A65-AACC-319C3869B786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6646CA0A-4566-4A65-AACC-319C3869B786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
