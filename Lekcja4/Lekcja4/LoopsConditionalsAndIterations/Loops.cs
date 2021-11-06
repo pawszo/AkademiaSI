@@ -24,7 +24,7 @@ namespace LoopsConditionalsAndIterations
             while(true)
             {
                 // DO SOMETHING
-                
+
                 if (isLoopExitTriggered) break;
 
                 System.Threading.Thread.Sleep(1000);
