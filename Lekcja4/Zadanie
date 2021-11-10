@@ -1,0 +1,7 @@
+Napisać dowolne 2 klasy implementujące interface IOutputWriter w projekcie InterfacesAndStrategy. 
+Można wykorzystać utworzone juz puste klasy (ConsoleOutputWriter, FileOutputWriter) lub utworzyć własne klasy.
+Wymagania:
+1. Każda klasa ma mieć implementacje dla wszystkich metod zadeklarowanych przez interface.
+2. Klasy mają nie wykonywać operacji bezpośrednio lecz poprzez service zagnieżdżony w klasie poprzez KOMPOZYCJĘ (https://en.wikipedia.org/wiki/Composite_pattern)
+3. Wykorzystany service ma byc dodany (wtrzykniety) przez konstruktor
+4. Kod ma sie kompilować i w miare działać
