@@ -8,7 +8,7 @@ namespace LoopsConditionalsAndIterations
 {
     class IfStatement
     {
-        void IfConditional()
+        public void IfConditional()
         {
             if(DateTime.Now.Hour > 19)
             {
@@ -16,7 +16,7 @@ namespace LoopsConditionalsAndIterations
             }
         }
 
-        void IfElseConditional()
+        public void IfElseConditional()
         {
             var random = new Random();
             int randomNumber = random.Next();
@@ -48,6 +48,21 @@ namespace LoopsConditionalsAndIterations
             else
             {
                 Console.WriteLine($"Random number is less than {threshold}");
+            }
+        }
+
+        public void NestedIf()
+        {
+            if(true)
+            {
+                if(0 == 0)
+                {
+
+                }
+                else
+                {
+ 
+                }
             }
         }
 

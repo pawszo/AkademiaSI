@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesAndStrategy", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsConditionalsAndIterations", "LoopsConditionalsAndIterations\LoopsConditionalsAndIterations.csproj", "{6646CA0A-4566-4A65-AACC-319C3869B786}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{38E38916-8AE3-4781-AD3F-D3AF5B3E5565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{5B985475-B991-4288-935F-6A998519978B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6646CA0A-4566-4A65-AACC-319C3869B786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6646CA0A-4566-4A65-AACC-319C3869B786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6646CA0A-4566-4A65-AACC-319C3869B786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E38916-8AE3-4781-AD3F-D3AF5B3E5565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E38916-8AE3-4781-AD3F-D3AF5B3E5565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E38916-8AE3-4781-AD3F-D3AF5B3E5565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E38916-8AE3-4781-AD3F-D3AF5B3E5565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B985475-B991-4288-935F-6A998519978B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B985475-B991-4288-935F-6A998519978B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B985475-B991-4288-935F-6A998519978B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B985475-B991-4288-935F-6A998519978B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

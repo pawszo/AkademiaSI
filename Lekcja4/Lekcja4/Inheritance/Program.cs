@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfacesAndStrategy.Services
+namespace Inheritance
 {
-    public class FileService
+    class Program
     {
-        public void SaveToFile(string filename, string text)
+        static void Main(string[] args)
         {
-
         }
     }
 }

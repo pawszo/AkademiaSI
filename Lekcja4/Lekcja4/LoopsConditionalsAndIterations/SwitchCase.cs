@@ -14,8 +14,12 @@ namespace LoopsConditionalsAndIterations
 
             switch (number)
             {
-                case 1: Console.WriteLine("ONE");
-                    break;
+                case 1:
+                    {
+                        Console.WriteLine("ONE");
+                        break;
+                    }
+                    
                 case 2: Console.WriteLine("TWO");
                     break;
                 case 3:
@@ -24,7 +28,24 @@ namespace LoopsConditionalsAndIterations
                 default: Console.WriteLine("OTHER NUMBER");
                     break;
             }
+            //
         }
-        
+
+        public void SwitchOnString()
+        {
+            string text = "ABC";
+
+            switch(text)
+            {
+                case "ABC":
+                    {
+                        break;
+                    }
+            }
+        }
+
+
+
+
     }
 }

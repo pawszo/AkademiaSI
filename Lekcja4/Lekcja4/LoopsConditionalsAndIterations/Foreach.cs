@@ -6,19 +6,50 @@ using System.Threading.Tasks;
 
 namespace LoopsConditionalsAndIterations
 {
-    class Foreach
+    public class Foreach
     {
-        void DoSomethingForEachElement()
+        public void DoSomethingForEachElement()
         {
-            string[] elements = new string[] { "raz", "dwa", "trzy" };
+            var elements = new string [] { "raz", "dwa", "trzy" }.ToList();
+            var itemsToRemove = new List<string>();
 
             foreach(string element in elements)
             {
                 Console.WriteLine(element);
+                if (element.Length > 3)
+                {
+                    itemsToRemove.Add(element);
+                    //elements.Remove(element); // WILL NOT WORK
+                }
+            }
+
+            foreach(var itemToRemove in itemsToRemove)
+            {
+                elements.Remove(itemToRemove);
             }
 
         }
 
+        public void DoSomethingForEachElementIntegers()
+        {
+            var elements = new int[] { 1, 2, 3 }.ToList();
+            var itemsToRemove = new List<int>();
 
+            foreach (int element in elements)
+            {
+                Console.WriteLine(element);
+                if (element >= 3)
+                {
+                    itemsToRemove.Add(element);
+                    //elements.Remove(element); // WILL NOT WORK
+                }
+            }
+
+            foreach (var itemToRemove in itemsToRemove)
+            {
+                elements.Remove(itemToRemove);
+            }
+
+        }
     }
 }

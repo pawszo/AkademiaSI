@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E7A272F-9B79-4AFB-B4E8-2AD348FFA4A7}</ProjectGuid>
+    <ProjectGuid>{38E38916-8AE3-4781-AD3F-D3AF5B3E5565}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>InterfacesAndStrategy</RootNamespace>
-    <AssemblyName>InterfacesAndStrategy</AssemblyName>
+    <RootNamespace>Exceptions</RootNamespace>
+    <AssemblyName>Exceptions</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\ProcessController.cs" />
-    <Compile Include="Interfaces\IOutputWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ConsoleService.cs" />
-    <Compile Include="Services\DialogService.cs" />
-    <Compile Include="Services\FileService.cs" />
-    <Compile Include="Services\WindowService.cs" />
-    <Compile Include="Writers\ConsoleOutputWriter.cs" />
-    <Compile Include="Writers\FileOutputWriter.cs" />
+    <Compile Include="TryCatchExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

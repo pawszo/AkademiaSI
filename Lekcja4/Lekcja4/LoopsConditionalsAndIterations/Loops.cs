@@ -40,6 +40,18 @@ namespace LoopsConditionalsAndIterations
             while (0 != 0);
         }
 
+        public void ForLoopArray()
+        {
+            string[] array = new string[] { "ACAB", "ABC", "CBA" };
+
+            for(int i = 0; i < array.Length; i++)
+            {
+                string item = array[i];
+                Console.WriteLine(item);
+            }
+        }
+
+
         void ForLoop()
         {
             for(int i = 0; i < 10; i++)
@@ -59,7 +71,7 @@ namespace LoopsConditionalsAndIterations
         void ForLoopVariation2()
         {
             bool isLoopExitTriggered = false;
-            for (;true;)
+            for (;true;) // == while(true)
             {
                 //INFINITE LOOP!!!
 
@@ -69,7 +81,7 @@ namespace LoopsConditionalsAndIterations
 
         void ForLoopVariation3()
         {
-            for (int i = 0; i++ < 10; Console.WriteLine(i)) ;
+            for (int i = 0; i++ < 10; Console.WriteLine(i) ) ;
         }
 
         void ForLoopVariation4()
