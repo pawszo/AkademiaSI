@@ -9,24 +9,59 @@ namespace InterfacesAndStrategy.Writers
 {
     public class ConsoleOutputWriter : IOutputWriter
     {
-        public void Debug(string message)
+        private readonly PrintService _printService;
+
+        public FileOutputWriter(PrintService fileService)
         {
-            throw new NotImplementedException();
+            _printService = printService;
+
         }
 
-        public void UserError(string message)
+        public void Debug(string text)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _printService.PrintText(text)
+            }
+            catch (Exception e)
+            {
+                _printService.PrintText(e.HResult);
+            }
         }
 
-        public void UserInfo(string message)
+        public void UserError(string text)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _printService.PrintText(text)
+            }
+            catch (Exception e)
+            {
+                _printService.PrintText(e.Message);
+            }
         }
 
-        public void UserWarning(string message)
+        public void UserInfo(string text)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _printService.PrintText(text)
+            }
+            catch (Exception e)
+            {
+                _printService.PrintText(e.StackTrace);
+            }
+        }
+
+        public void UserWarning(string text)
+        {
+            try
+            {
+                _printService.PrintText(text)
+            }
+            catch (Exception e)
+            {
+                _printService.PrintText(e.InnerException);
+            }
         }
     }
-}
