@@ -11,86 +11,45 @@ namespace InterfacesAndStrategy.Writers
     public class FileOutputWriter : IOutputWriter
     {
         private readonly FileService _fileService;
-        private string _debugFileName;
-        private string _userFileName;
 
         private string _mainPath;
-        private string _filename;
-        private string text;
+        private string _fileName;
 
-        public FileOutputWriter(FileService fileService)
+        public void Debug(string message)
         {
-            _fileService = fileService;
-            _debugFileName = "MYFILE.txt";
-            _userFileName = "userfile.txt";
+            _mainPath = "C:/";
+            _fileName = "Debug.txt";
+            message = "e";
+
+            _fileService.SaveToFile(_mainPath, _fileName, message);
+
         }
 
-        public void Debug(FileService fileService, string mainPath, string filename, string text)
+        public void UserError(string message)
         {
-            _fileName = "Text";
-            _exceptionFileName = "FileDebug.txt";
             _mainPath = "C:/";
-            _text = text;
+            _fileName = "UserError.txt";
+            message = "f";
 
-            try
-            {
-                _fileService.SaveToFile(_mainPath, _filename, _text);
-            }
-            catch (Exception e)
-            {
-                _fileService.SaveToFile(_mainPath, _filename, e.HResult);
-            }
+            _fileService.SaveToFile(_mainPath, _fileName, message);
         }
 
-        public void UserError(string mainPath, string filename, string text)
+        public void UserInfo(string message)
         {
-            _fileName = "Text";
-            _exceptionFileName = "UserError.txt";
             _mainPath = "C:/";
-            _text = text;
+            _fileName = "UserInfo.txt";
+            message = "g";
 
-            try
-            {
-                _fileService.SaveToFile(_mainPath, _filename, _text);
-            }
-            catch (Exception e)
-            {
-                _fileService.SaveToFile(_mainPath, _filename, e.Message);
-            }
+            _fileService.SaveToFile(_mainPath, _fileName, message);
         }
 
-        public void UserInfo(string mainPath, string filename, string text)
+        public void UserWarning(string message)
         {
-            _fileName = "Text";
-            _exceptionFileName = "UserInfo.txt";
             _mainPath = "C:/";
-            _text = text;
+            _fileName = "UserWarning.txt";
+            message = "h";
 
-            try
-            {
-                _fileService.SaveToFile(_mainPath, _filename, _text);
-            }
-            catch (Exception e)
-            {
-                _fileService.SaveToFile(_mainPath, _filename, e.StackTrace);
-            }
-        }
-
-        public void UserWarning(string mainPath, string filename, string text)
-        {
-            _fileName = "Text";
-            _exceptionFileName = "UserWarning.txt";
-            _mainPath = "C:/";
-            _text = text;
-                
-            try
-            {
-                _fileService.SaveToFile(_mainPath, _filename, _text);
-            }
-            catch(Exception e)
-            {
-                _fileService.SaveToFile(_mainPath, _filename, e.InnerException);
-            }
+            _fileService.SaveToFile(_mainPath, _fileName, message);
         }
     }
 }

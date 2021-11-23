@@ -1,4 +1,5 @@
 ﻿using InterfacesAndStrategy.Interfaces;
+using InterfacesAndStrategy.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,57 +12,32 @@ namespace InterfacesAndStrategy.Writers
     {
         private readonly PrintService _printService;
 
-        public FileOutputWriter(PrintService fileService)
+        public void Debug(string message)
         {
-            _printService = printService;
+            message = "a";
 
+            _printService.PrintText($"Debug info:" + message);
         }
 
-        public void Debug(string text)
+        public void UserError(string message)
         {
-            try
-            {
-                _printService.PrintText(text)
-            }
-            catch (Exception e)
-            {
-                _printService.PrintText(e.HResult);
-            }
+            message = "b";
+
+            _printService.PrintText($"User error:" + message);
         }
 
-        public void UserError(string text)
+        public void UserInfo(string message)
         {
-            try
-            {
-                _printService.PrintText(text)
-            }
-            catch (Exception e)
-            {
-                _printService.PrintText(e.Message);
-            }
+            message = "c";
+
+            _printService.PrintText($"User info:" + message);
         }
 
-        public void UserInfo(string text)
+        public void UserWarning(string message)
         {
-            try
-            {
-                _printService.PrintText(text)
-            }
-            catch (Exception e)
-            {
-                _printService.PrintText(e.StackTrace);
-            }
-        }
+            message = "d";
 
-        public void UserWarning(string text)
-        {
-            try
-            {
-                _printService.PrintText(text)
-            }
-            catch (Exception e)
-            {
-                _printService.PrintText(e.InnerException);
-            }
+            _printService.PrintText($"User warning:" + message);
         }
     }
+}
