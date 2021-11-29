@@ -10,6 +10,10 @@ namespace InterfacesAndStrategy
     {
         static void Main(string[] args)
         {
+            Run StartProgram = new Run();
+
+            StartProgram.DoIt();
         }
     }
+}
 }
